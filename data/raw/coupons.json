@@ -1,0 +1,13 @@
+{
+  "_source": "mcd-mcp available-coupons（麦麦省可领取券）",
+  "_fetchedAt": "2026-10-09 20:20:14",
+  "_note": "券是否可用于当前门店/当前订单需以麦当劳 App 实际校验为准，本工具不做可用性与金额承诺",
+  "coupons": [
+    { "title": "麦旋风任选", "status": "可领取", "image": "https://img.mcd.cn/cms/images/b4753dc54f708435.png" },
+    { "title": "巧克力味厚松饼猪柳蛋套餐", "status": "可领取", "image": "https://img.mcd.cn/cms/images/6e3477060dd7cd10.png" },
+    { "title": "薯薯任选", "status": "可领取", "image": "https://img.mcd.cn/cms/images/89616dc45f21dd90.png" },
+    { "title": "免费脆薯饼", "status": "可领取", "image": "https://img.mcd.cn/cms/images/a887eba30e51bcd7.png" },
+    { "title": "人气麦旋风买一送一", "status": "可领取", "image": "https://img.mcd.cn/cms/images/bc4d867108301b78.png" },
+    { "title": "9.9元中杯冰美式", "status": "可领取", "image": "https://img.mcd.cn/cms/images/66a5597fe23246e698d9d63be003a951.png" }
+  ]
+}

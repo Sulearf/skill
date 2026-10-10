@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#d8232a" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<title>麦当劳 · 多人拼单不纠结</title>
+<link rel="stylesheet" href="../assets/styles.css" />
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <button class="back-btn" id="backBtn" type="button" hidden aria-label="返回">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+
+    <a class="brand" href="#/">
+      <span class="brand-mark">M</span>
+      <span class="brand-text">拼单不纠结<em>McGroup</em></span>
+    </a>
+
+    <h1 class="tb-title" id="tbTitle" hidden></h1>
+
+    <div class="topbar-right">
+      <span class="data-chip" id="dataChip" title="">
+        <span class="dc-full">数据加载中…</span><span class="dc-short">…</span>
+      </span>
+    </div>
+  </div>
+
+  <!-- 手机端：细进度条 + 当前步骤 -->
+  <div class="progress" id="progress" hidden>
+    <div class="progress-bar"><i id="progressFill"></i></div>
+    <div class="progress-txt" id="progressTxt"></div>
+  </div>
+
+  <!-- 桌面端：步骤胶囊 -->
+  <nav class="steps" id="steps"></nav>
+</header>
+
+<div class="notice-strip" id="noticeStrip" hidden></div>
+
+<main id="app" class="app"></main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <p><strong>产品原则：</strong>本工具只辅助决策 —— 不代替你登录、支付或下单。所有金额均为按当前菜单估算，<strong>下单前请在麦当劳 App/小程序内二次确认价格与可售状态</strong>。</p>
+    <p class="muted">过敏原与忌口标签由商品名称推断，仅供筛选参考；涉及过敏请以麦当劳官方说明与门店确认为准。菜单与优惠数据来自麦当劳 MCP 接口快照。</p>
+  </div>
+</footer>
+
+<div class="actionbar" id="actionBar" hidden>
+  <div class="actionbar-inner">
+    <div class="ab-note" id="abNote"></div>
+    <button class="btn primary" id="abBtn" type="button"></button>
+  </div>
+</div>
+
+<div class="toast" id="toast" hidden></div>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>

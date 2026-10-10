@@ -1,0 +1,46 @@
+{
+  "_source": "mcd-mcp query-nearby-stores",
+  "_fetchedAt": "2026-10-09 20:22:24",
+  "groups": [
+    {
+      "city": "深圳", "keyword": "科技园", "beType": 1, "scene": "到店自提",
+      "stores": [
+        { "storeCode": "1420762", "storeName": "麦当劳深圳同方信息港餐厅", "address": "科技园北区朗山路11号同方信息港E栋G层5号商铺", "distance": 403, "businessStatus": true, "businessStartTime": "07:00", "businessEndTime": "23:00", "reservation": true },
+        { "storeCode": "1420659", "storeName": "麦当劳深圳金拱门食品有限公司(禹洲广场)餐厅", "address": "科苑路共享大厦A座一层L1-01号/室商铺", "distance": 477, "businessStatus": true, "businessStartTime": "07:00", "businessEndTime": "23:00", "reservation": true },
+        { "storeCode": "1420888", "storeName": "麦当劳深圳科技园长园得来速餐厅", "address": "粤海街道科技园社区高新中一道2号长园新材料港1 2 3 4栋的C栋一层102 103号", "distance": 732, "businessStatus": true, "businessStartTime": "07:00", "businessEndTime": "22:00", "reservation": true },
+        { "storeCode": "1421057", "storeName": "麦当劳深圳松坪山餐厅", "address": "西丽街道松坪山社区松坪山群芳街40号松坪村综合楼一层B39商铺", "distance": 810, "businessStatus": true, "businessStartTime": "00:00", "businessEndTime": "23:59", "reservation": true },
+        { "storeCode": "1420412", "storeName": "麦当劳深圳科苑路餐厅", "address": "讯美科技广场3号首层", "distance": 1233, "businessStatus": true, "businessStartTime": "07:00", "businessEndTime": "23:00", "reservation": true }
+      ]
+    },
+    {
+      "city": "深圳", "keyword": "科技园", "beType": 5, "scene": "得来速车道取餐",
+      "stores": [
+        { "storeCode": "1420888", "beCode": "142088841", "storeName": "深圳科技园长园得来速餐厅", "address": "粤海街道科技园社区高新中一道2号长园新材料港1 2 3 4栋的C栋一层102 103号", "distance": 732, "businessStatus": true, "businessStartTime": "07:00", "businessEndTime": "22:00", "reservation": true },
+        { "storeCode": "1420864", "beCode": "142086441", "storeName": "深圳尚美科技大厦得来速餐厅", "address": "沙河西路2009号", "distance": 1891, "businessStatus": true, "businessStartTime": "07:00", "businessEndTime": "22:00", "reservation": true },
+        { "storeCode": "1420224", "beCode": "142022441", "storeName": "深圳欢乐海岸得来速餐厅", "address": "白石路东8号欢乐海岸项目东南角地景坡地南面独立商铺", "distance": 5959, "businessStatus": true, "businessStartTime": "00:00", "businessEndTime": "23:59", "reservation": true },
+        { "storeCode": "1420359", "beCode": "142035941", "storeName": "深圳前进路得来速餐厅", "address": "西乡街道彩虹城旁", "distance": 7701, "businessStatus": true, "businessStartTime": "07:00", "businessEndTime": "23:00", "reservation": true },
+        { "storeCode": "1420975", "beCode": "142097541", "storeName": "深圳塘头东海百货得来速餐厅", "address": "石岩塘头大道39号宏发商业大厦建筑的一部分", "distance": 12346, "businessStatus": true, "businessStartTime": "07:00", "businessEndTime": "23:00", "reservation": true }
+      ]
+    },
+    {
+      "city": "上海", "keyword": "陆家嘴", "beType": 1, "scene": "到店自提",
+      "stores": [
+        { "storeCode": "1450127", "storeName": "麦当劳上海陆家嘴明珠环餐厅", "address": "世纪大道55号2F-1室", "distance": 75, "businessStatus": true, "businessStartTime": "07:00", "businessEndTime": "23:00", "reservation": true },
+        { "storeCode": "1450579", "storeName": "麦当劳上海正大广场餐厅", "address": "陆家嘴西路168号5F02室商铺", "distance": 268, "businessStatus": true, "businessStartTime": "10:00", "businessEndTime": "22:00", "reservation": true },
+        { "storeCode": "1450512", "storeName": "麦当劳上海陆家嘴星展餐厅", "address": "陆家嘴环路1318号地下一层09室", "distance": 445, "businessStatus": true, "businessStartTime": "07:00", "businessEndTime": "22:00", "reservation": true },
+        { "storeCode": "1450330", "storeName": "麦当劳上海浦东上海中心餐厅", "address": "银城中路501号B1-1室", "distance": 490, "businessStatus": true, "businessStartTime": "07:00", "businessEndTime": "22:00", "reservation": true },
+        { "storeCode": "1450140", "storeName": "麦当劳上海东昌路世界广场餐厅", "address": "浦东南路855号B1层西部XA1-01-08商铺", "distance": 1344, "businessStatus": true, "businessStartTime": "07:00", "businessEndTime": "22:00", "reservation": false }
+      ]
+    },
+    {
+      "city": "北京", "keyword": "中关村", "beType": 1, "scene": "到店自提",
+      "stores": [
+        { "storeCode": "1950640", "storeName": "麦当劳北京善缘街(中关村5号)餐厅", "address": "中关村海淀大街5号", "distance": 284, "businessStatus": true, "businessStartTime": "07:00", "businessEndTime": "22:00", "reservation": true },
+        { "storeCode": "1951000", "storeName": "麦当劳北京中关村领展广场餐厅", "address": "丹棱街甲1号-B1层-101-02", "distance": 553, "businessStatus": true, "businessStartTime": "07:00", "businessEndTime": "22:00", "reservation": true },
+        { "storeCode": "1950935", "storeName": "麦当劳北京中关村南路(新科祥园)餐厅", "address": "中关村南路新科祥园7号楼", "distance": 631, "businessStatus": true, "businessStartTime": "07:00", "businessEndTime": "23:00", "reservation": true },
+        { "storeCode": "1950013", "storeName": "麦当劳北京海淀镇餐厅", "address": "海淀大街甲36号", "distance": 828, "businessStatus": true, "businessStartTime": "06:00", "businessEndTime": "22:00", "reservation": false },
+        { "storeCode": "1950027", "storeName": "麦当劳北京海淀黄庄餐厅", "address": "人大北路22号", "distance": 930, "businessStatus": true, "businessStartTime": "06:30", "businessEndTime": "23:00", "reservation": true }
+      ]
+    }
+  ]
+}

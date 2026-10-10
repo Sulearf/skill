@@ -1,0 +1,25 @@
+{
+  "name": "mcd-pindan",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "麦当劳「多人拼单不纠结」—— 收集需求 → 自动搭配 → 优惠优化 → AA 分账 → 下单清单全流程决策辅助工具",
+  "keywords": ["skill", "mcdonald", "mcd-mcp", "group-order", "aa-split"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node scripts/server.js",
+    "build": "node scripts/build-snapshot.js",
+    "test": "node scripts/smoke.mjs",
+    "smoke": "node scripts/smoke.mjs",
+    "verify": "node scripts/build-snapshot.js && node scripts/smoke.mjs"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "comments": {
+    "dependencies": "本 Skill 刻意保持零第三方依赖：服务端只用 node:http / node:fs / node:path 内置模块，浏览器端为原生 ES Module，因此无需 npm install 即可运行。",
+    "node": "需要 Node.js 18 及以上（使用了全局 fetch、node: 前缀导入与 ES Module）。"
+  }
+}
